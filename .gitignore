@@ -1,0 +1,49 @@
+# --- secrets: never commit ---
+.env
+.env.*
+*credentials*
+settings.yaml*
+config.json
+imagegen.json
+mcp.json
+*.pem
+*.key
+*.p12
+
+# --- recorded data + datasets: back up, do not commit ---
+piper_data/
+MyTTSDataset*/
+chatterbox_output*/
+data_shunyalabs/
+*.7z
+*.wav
+*.mp3
+*.tar
+
+# --- trained weights: back up, do not commit ---
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.pth
+out_mn*/
+out_*/
+models/
+checkpoints/
+
+# --- re-downloadable ---
+venv/
+.venv/
+node_modules/
+__pycache__/
+.cache/
+site-packages/
+.next/
+.hf/
+pretrained_models/
+
+# --- editor / OS ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log

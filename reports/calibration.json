@@ -1,0 +1,37 @@
+{
+  "n": 18,
+  "accuracy": 0.9444444444444444,
+  "by_tier": {
+    "rules": 10,
+    "ml": 4,
+    "gate": 4
+  },
+  "auto_filed": 14,
+  "auto_filed_correct": 14,
+  "per_folder": {
+    "invoice_payment": {
+      "correct": 3,
+      "n": 3
+    },
+    "school": {
+      "correct": 3,
+      "n": 3
+    },
+    "government": {
+      "correct": 2,
+      "n": 3
+    },
+    "vendor_spam": {
+      "correct": 3,
+      "n": 3
+    },
+    "personal": {
+      "correct": 3,
+      "n": 3
+    },
+    "review": {
+      "correct": 3,
+      "n": 3
+    }
+  }
+}
